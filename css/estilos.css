@@ -113,10 +113,35 @@ main .productos figure figcaption a {
 /* ------------------------- */
 /* Pushbars: Estilos Generales */
 /* ------------------------- */
-
+.pushbar{
+	background: #000;
+	color: #fff;
+	padding: 20px;
+}
+.pushbar .btn-cerrar.derecha{
+	text-align: right;
+}
+.pushbar .btn-cerrar button{
+	background: none;
+	color: #808080;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+}
 
 /* ----- ----- Pushbar: Menu de Navegacion ----- ----- */
-
+.pushbar-menu a{
+	display: block;
+	color: #AAAAAA;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(112,112,112, .60);
+	font-weight: 300;
+	font-size: 18px;
+	transition: 3s ease color;
+}
+.pushbar-menu a:hover{
+	color:#fff;
+}
 /* ----- ----- Pushbar: Carrito de Compras ----- ----- */
 
 /* ----- ----- Pushbar: Productos ----- ----- */
